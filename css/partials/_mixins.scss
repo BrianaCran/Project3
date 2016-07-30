@@ -1,0 +1,11 @@
+@mixin dropdefault{display: none;
+        position: absolute;
+        z-index: 10;}
+
+@mixin h2default{font-family: 'Mirza', cursive;
+                 font-size: 35px;}
+
+@mixin titleboxdefault{ width: 477px;
+                        height: 50px;
+                        background: $tan;
+                        padding: 20px 0 10px 0;}
