@@ -68,9 +68,7 @@ nav{
                width: 20%;
               }
             div{
-
                 padding: 30px 0 0px 0;
-
                   .c{
                     height: 220px;
                      }
@@ -129,6 +127,7 @@ nav{
 
 }
     .rightcol{
+              margin-top: -4px;
               border-left: none;
               border-top: 2px solid $gray;
 }

@@ -523,7 +523,8 @@ nav {
         margin: 3px 15px 7px 0px; }
       .leftcol .content div p, .rightcol .content div p {
         position: relative;
-        height: 110px; }
+        height: 110px;
+        padding-right: 15px; }
 
 .rightcol {
   clear: left;
@@ -806,6 +807,7 @@ header {
           margin: 3px 15px 7px 0px; }
 
   .rightcol {
+    margin-top: -4px;
     border-left: none;
     border-top: 2px solid #58595B; }
 

@@ -9,7 +9,7 @@ img.onclick = function(){
     modal.style.display = "block";
     modalImg.src = this.src;
     modalImg.alt = this.alt;
-    captionText = document.getElementsById("description");
+    captionText.innerHTML = this.alt;
 }
 
 // Get the <span> element that closes the modal
@@ -29,7 +29,7 @@ var captionText = document.getElementById("captionone");
 img.onclick = function(){
     modal.style.display = "block";
     modalImg.src = this.src;
-    captionText= document.getElementById('descriptiontwo');
+    captionText.innerHTML = this.alt;
 }
 
 // Get the <span> element that closes the modal
@@ -48,7 +48,7 @@ var captionText = document.getElementById("descriptionthree");
 img.onclick = function(){
     modal.style.display = "block";
     modalImg.src = this.src;
-    captionText = document.getElementById('descriptionthree');
+    captionText.innerHTML = this.alt;
 }
 
 // Get the <span> element that closes the modal

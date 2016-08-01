@@ -1,5 +1,5 @@
 
-.current {
+.current{
           border-bottom: 2px solid $gray;
           padding: 29px 0 0px 40px;
           height: 280px;
@@ -41,6 +41,7 @@
                   height: 520px;
                   overflow-y: scroll;
 
+
                  div{
                      padding-bottom: 10px;
 
@@ -52,6 +53,7 @@
                       p{
                         position: relative;
                         height: 110px;
+                        padding-right: 15px;
 
                        }
                      }
