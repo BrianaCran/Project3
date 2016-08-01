@@ -3,22 +3,49 @@ a:hover{
         color: white;
        }
 nav{
-
+  @-webkit-keyframes fading {
+                     from {
+                           opacity: 0;
+                          }
+                      to {
+                           opacity: 1;
+                          }
+                   }
+   @-moz-keyframes fading {
+                      from {
+                            opacity: 0;
+                           }
+                       to {
+                            opacity: 1;
+                           }
+                    }
+    @keyframes fading {
+                        from {
+                              opacity: 0;
+                             }
+                         to {
+                              opacity: 1;
+                             }
+                      }
   .hdrop:hover .dropnav{
                         display:block;
+                        @include dropanimation;
                        }
   .dropnav a:hover{
                    background: none;
                    text-decoration: underline;
                    color: $darkbrown;
+
                    }
   .two a:hover{
                color: white;
               }
    .hdropt:hover .three{
                         display:block;
+                        @include dropanimation;
                         }
    .hlastdrop:hover .four{
                           display:block;
+                          @include dropanimation;
                          }
 }

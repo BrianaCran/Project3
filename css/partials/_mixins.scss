@@ -5,7 +5,10 @@
                     background: white;
                     box-shadow: -10px 0px 14px -5px $gray;
                   }
-
+@mixin dropanimation{
+                     animation-name: fading;
+                     animation-duration: 1s;
+                     animation-iteration-count: 1;}
 @mixin h2default{
                  font-family: 'Mirza', cursive;
                  font-size: 35px;
