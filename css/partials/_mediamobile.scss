@@ -1,0 +1,147 @@
+@media (max-width: 767px){
+
+  body{
+       margin: 0;
+     }
+  .container{
+             width: 100%;
+           }
+  nav{
+      width: 100%;
+
+      .logoone{
+               width: 50%;
+              }
+      .hamburgertop{
+                    display: block;
+                    position: relative;
+                    left: 20px;
+                    top: -7px;
+                    width: 22%;
+                    border-left: 2px solid $darkbrown;
+                    padding: 9px 0 7px 30px;
+                    }
+      .hdrop,.hdropt{
+                      display:none;
+                    }
+      .socialicons{
+                    .first{
+                           left: -80px;
+                           height: 32px;
+                           width: 50px;
+                         }
+                         .bellsize,.friendsize,.inboxsize,.profilesize{
+                                                                        width: 100%;
+                                                                        background: $darkbrown;
+                                                                      }
+                    .second{
+                            left: -70px;
+                            top: -5px;
+                            width: 50px;
+                            height: 34px;
+                          }
+
+                    .third{
+                           position: relative;
+                           left: -50px;
+                           width: 58px;
+                           top: -5px;
+                           height: 35px;
+                         }
+
+                    .fourth{
+                            position: relative;
+                            left: 240px;
+                            top: -80px;
+                            width: 90px;
+                           }
+                a:hover {
+                         background: none;
+                        }
+                }
+
+  }
+header{
+       padding-top: 70px;
+
+       article{
+              img{width: 9.6%;}
+              input{
+                    width: 60%;
+                   }
+              }
+  }
+
+.current{
+         h2{margin-left: -20px;}
+
+         div{overflow: auto;
+             width: 80%;
+             height: 250px;
+             margin-top: -10px;
+
+            img{padding: 10px 0 0 20px;
+                width: 60%;}
+             }
+  }
+  .leftcol,.rightcol{
+
+                      .titlebox{
+                                float: left;
+                                background: none;
+                                width: 70px;
+
+                                h2{
+                                    left: -2px;
+                                   }
+                                }
+                      .content{
+
+                                div{
+                                    padding: 25px 25px 10px 0px;
+
+                                    img{
+                                         width: 70%;
+                                         margin: 3px 15px 7px 60px;
+                                        }
+                                      h3,h4,p {
+                                               display: none;
+                                               }
+                                    }
+                               }
+                       }
+.rightcol {
+           margin-top: -4px;
+          }
+footer{
+        .hamburgerbottom{
+                          display: block;
+                          width: 25%;
+                          float: left;
+                          padding: 23px 13px 20px 12px;
+                          border-top: 2px solid $darkbrown;
+                          border-right: 2px solid $darkbrown;
+                        }
+        .logo{
+              width: 35%;
+              margin: 0;
+              border-top: 2px solid $darkbrown;
+              padding: 45px 16px 0px 9px;
+
+           }
+        ul{
+           display: none;
+          }
+        button{
+               display: block;
+               width: 27%;
+               float: right;
+               font-size: 25px;
+               height: 120px;
+               background: none;
+               border: none;
+               border-left: 2px solid $darkbrown;
+               border-top: 2px solid $darkbrown;
+             }
+ }
+}

@@ -1,0 +1,24 @@
+a:hover{
+        background: $darkbrown;
+        color: white;
+       }
+nav{
+
+  .hdrop:hover .dropnav{
+                        display:block;
+                       }
+  .dropnav a:hover{
+                   background: none;
+                   text-decoration: underline;
+                   color: $darkbrown;
+                   }
+  .two a:hover{
+               color: white;
+              }
+   .hdropt:hover .three{
+                        display:block;
+                        }
+   .hlastdrop:hover .four{
+                          display:block;
+                         }
+}
