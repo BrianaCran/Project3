@@ -11,14 +11,17 @@
             }
          div{
              float: right;
-
+              .special{
+                display: inline-block;
              .c{
-                float:left;
                 height: 280px;
-                margin-left: 50px;
+                margin-left: 10px;
                 }
               }
-
+              .special:hover{ opacity: .2;
+                              border: none;
+                              box-shadow: none;}
+            }
 }
 .leftcol,.rightcol{
                     clear:both;
@@ -53,7 +56,7 @@
                       p{
                         position: relative;
                         height: 110px;
-                        padding-right: 15px;
+                        padding-right: 10px;
 
                        }
                      }

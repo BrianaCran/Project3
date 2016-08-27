@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Books Books Books</title>
+    <link rel="stylesheet" href="css/remodaldefaulttheme.css">
+    <link rel="stylesheet" href="css/remodal.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Mirza|Open+Sans:400,600" rel="stylesheet">
 
@@ -17,7 +19,7 @@
         <img src="images/hamburgertop.svg" class="hamburgertop">
         <ul>
             <li class="hdrop"><a href="#">Browse</a>
-              <ul class="dropnav">
+              <ul class="dropnav one">
                 <li><a href="#">Recommendations</a></li>
                 <li><a href="#">Choice Awards</a></li>
                 <li><a href="#">Giveaways</a></li>
@@ -80,41 +82,58 @@
       <article class="current">
           <h2>Currently Reading:</h2>
           <div>
-            <img class="c" id="Dwarves" src="images/Dwarves.jpg" alt="For countless millennia, no man or beast has ever succeeded in breaching the stone gateway into Girdlegard.
-                     Until now... Abandoned as a child, Tungdil the blacksmith is the only dwarf in a kingdom of men. But when he
-                     is sent out into the world to deliver a message and reacquaint himself with his people, the young foundling
-                     finds himself thrust into a battle for which he has not been trained. Not only his own safety, but the life
-                     of every man, woman and child in Girdlegard depends upon his ability to embrace his heritage. Although he has
-                     many unanswered questions, Tungdil is certain of one thing: no matter where he was raised, he is a true dwarf.
-                     And no one has ever questioned the courage of the Dwarves.">
-              <div id="myModal" class="modal">
-                <span class="close">×</span>
-                <img class="modal-content" id="img01">
-                <div id="description">
-                </div>
-              </div>
-            <img class="c" id="Marion" src="images/Exile.jpg" alt="Exile's Song by Marion Zimmer Bradley">
-              <div id="myModal2" class="modal">
-                <span class="closetwo">×</span>
-                <img class="modal-content" id="img02">
-                <div id="descriptiontwo">
-                    <p class="infotexttwo"></p>
-                </div>
-              </div>
-            <img id="Taran" class="c" src="images/inquisition.jpg" alt="A year has passed since the Tournament. Fletcher and Ignatius have been locked away in Pelt’s dungeons,
-                but now they must face a trial at the hands of the Inquisition, a powerful institution controlled by
-                those who would delight in Fletcher’s downfall. The trial is haunted by ghosts from the past with shocking
-                revelations about Fletcher’s origins, but he has little time to dwell on them; the graduating students of Vocans
-                are to be sent deep into the orc jungles to complete a dangerous mission for the king and his council. If they fail,
-                the orcish armies will rise to power beyond anything the Empire has ever seen.With loyal friends Othello and Sylva by
-                his side, Fletcher must battle his way to the heart of Orcdom and save Hominum from destruction…or die trying.">
+            <a href="#Amodal" class="special"><img class="c" id="Dwarves" src="images/Dwarves.jpg" alt="Dwarves by Markus Heitz"></a>
+                     <div class="remodal" data-remodal-id="Amodal">
+                       <button data-remodal-action="close" class="remodal-close"></button>
+                       <h1>Dwarves by Markus Heitz</h1>
+                       <p>
+                         For countless millennia, no man or beast has ever succeeded in breaching the stone gateway into Girdlegard.
+                          Until now... Abandoned as a child, Tungdil the blacksmith is the only dwarf in a kingdom of men. But when he
+                          is sent out into the world to deliver a message and reacquaint himself with his people, the young foundling
+                          finds himself thrust into a battle for which he has not been trained. Not only his own safety, but the life
+                          of every man, woman and child in Girdlegard depends upon his ability to embrace his heritage. Although he has
+                          many unanswered questions, Tungdil is certain of one thing: no matter where he was raised, he is a true dwarf.
+                          And no one has ever questioned the courage of the Dwarves.
+                       </p>
+                       <br>
+                       <button data-remodal-action="cancel" class="remodal-cancel">Cancel</button>
+                       <button data-remodal-action="confirm" class="remodal-confirm">OK</button>
+                     </div>
+            <a href="#Bmodal" class="special"><img class="c" id="Marion" src="images/Exile.jpg" alt="Exile's Song by Marion Zimmer Bradley"></a>
+            <div class="remodal" data-remodal-id="Bmodal">
+              <button data-remodal-action="close" class="remodal-close"></button>
+              <h1>Exile's Song by Marion Zimmer Bradley</h1>
+              <p>
+                A year has passed since the Tournament. Fletcher and Ignatius have been locked away in Pelt’s dungeons,
+                    but now they must face a trial at the hands of the Inquisition, a powerful institution controlled by
+                    those who would delight in Fletcher’s downfall. The trial is haunted by ghosts from the past with shocking
+                    revelations about Fletcher’s origins, but he has little time to dwell on them; the graduating students of Vocans
+                    are to be sent deep into the orc jungles to complete a dangerous mission for the king and his council. If they fail,
+                    the orcish armies will rise to power beyond anything the Empire has ever seen.With loyal friends Othello and Sylva by
+                    his side, Fletcher must battle his way to the heart of Orcdom and save Hominum from destruction…or die trying.
+              </p>
+              <br>
+              <button data-remodal-action="cancel" class="remodal-cancel">Cancel</button>
+              <button data-remodal-action="confirm" class="remodal-confirm">OK</button>
+            </div>
+            <a href="#Cmodal" class="special"><img id="Taran" class="c" src="images/inquisition.jpg" alt="The Inquisition by Taran Matharu"></a>
 
-              <div id="myModal3" class="modal">
-                <span class="closethree">×</span>
-                <img class="modal-content" id="img03">
-                <div id="descriptionthree">
+                <div class="remodal" data-remodal-id="Cmodal">
+                  <button data-remodal-action="close" class="remodal-close"></button>
+                  <h1>The Inquisition by Taran Matharu</h1>
+                  <p>
+                    A year has passed since the Tournament. Fletcher and Ignatius have been locked away in Pelt’s dungeons,
+                        but now they must face a trial at the hands of the Inquisition, a powerful institution controlled by
+                        those who would delight in Fletcher’s downfall. The trial is haunted by ghosts from the past with shocking
+                        revelations about Fletcher’s origins, but he has little time to dwell on them; the graduating students of Vocans
+                        are to be sent deep into the orc jungles to complete a dangerous mission for the king and his council. If they fail,
+                        the orcish armies will rise to power beyond anything the Empire has ever seen.With loyal friends Othello and Sylva by
+                        his side, Fletcher must battle his way to the heart of Orcdom and save Hominum from destruction…or die trying.
+                  </p>
+                  <br>
+                  <button data-remodal-action="cancel" class="remodal-cancel">Cancel</button>
+                  <button data-remodal-action="confirm" class="remodal-confirm">OK</button>
                 </div>
-              </div>
           </div>
       </article>
       <article class="leftcol">
@@ -215,12 +234,12 @@
     <footer>
       <img src="images/hamburger.svg" class="hamburgerbottom">
       <img src="images/fulllogo.png" class="logo" alt="Goodreads">
-      <ul>
+      <ul class="footernav">
         <li><a href="#">Help</a></li>
         <li><a href="#">Home</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
-      <ul>
+      <ul class="footernav">
         <li><a href="#">Browse</a></li>
         <li><a href="#">Community</a></li>
         <li><a href="#">Profile</a></li>
@@ -228,6 +247,8 @@
       <button><a href="#">Logout</a></button>
     </footer>
    </div>
-   <script type="text/javascript" src="javascript/javascript.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+   <script src="javascript/remodal.js"></script>
+   <script src="javascript/mobilenav.js"></script>
   </body>
 </html>

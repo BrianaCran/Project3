@@ -28,6 +28,10 @@ nav{
            margin-right: 25px;
           }
          }
+         a:hover{
+                 background: $darkbrown;
+                 color: white;
+                }
     .socialicons{
                  .specialwidth{
                                width:10%;
@@ -107,7 +111,7 @@ nav{
                      }
                  }
 
-         .two{
+         .two{ box-shadow: none;
               left: 170px;
               top: 70px;
               background: $gray;
